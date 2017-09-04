@@ -1,0 +1,285 @@
+html, body{
+  overflow-x: hidden;
+}
+
+.none{
+	display: none;
+}
+
+.block{
+	display: block;
+}
+
+.version{
+  font-size: 80%;
+  background: rgba(0,0,0,.3);
+}
+
+header.version{
+  margin-bottom: 10px;
+  font-size: 55%;
+}
+
+.version-footer{
+  padding: 5px 0;
+}
+
+.version-footer small{
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.droite{
+  float: right;
+}
+
+.gauche{
+  float: left;
+}
+
+.blanc{
+  color: #fff;
+}
+
+/*#j_nom{
+  margin: 0 0 25px 0;}*/
+
+main{
+  margin-bottom: 10px;
+}
+
+/*  barres de stats  */
+
+.controles{
+  position: absolute;
+  right: 10px;
+  z-index: 1000;
+}
+
+.btn_ctrl{
+  font-size: 10px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px; 
+}
+
+.progress{
+  height: 12px;
+}
+.progress-bar{
+  line-height: 12px;
+  font-size: 10px;
+	float : left;
+}
+
+.img_barre{
+  width: 30px;
+  position: absolute;
+  top: -10px;
+  right: 0;
+}
+
+.span-info{
+  width: 100%;
+}
+
+.actif{
+  background: #adadad!important;
+}
+
+/* menu principal */
+.menu_ppal{
+  height: auto;
+  overflow: hidden;
+}
+.menu_ppal .btn{
+  border: 1px solid transparent;
+  transform: translate(0,10px);
+}
+.menu_ppal .btn.active{
+  transform: translate(0,2px);
+}
+.menu_ppal .btn .badge{
+  opacity: 0;
+}
+/*  items / GENERAL */
+
+#vue1.active{
+  background: #df691a;
+}
+
+.vue{
+  display: none;
+}
+
+.items_ctn{
+  height: 100px;
+  overflow-y: auto;
+  background: rgba(12, 12, 12, 0.26);
+  border-bottom: 2px solid rgba(12, 12, 12, 0.51);
+}
+
+.item{
+  min-height: 80px;
+}
+
+.item img{
+  width: 65px;
+  float: left;
+}
+.item_nom{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.item_desc{
+  font-size: 12px;
+  margin: 0;
+  color: #121212;
+}
+
+.prix{
+  float: right;
+  color: #8e2e32;
+}
+
+/* footer */
+.menu{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 5px 0 5px #121212;
+}
+.btn_menu{
+  padding: 3px 8px 3px 8px;
+}
+
+/* Messages */
+.msg_ctn{
+  display: block;
+  position: relative;
+}
+
+.fenetre-message{
+  background: #2E2D32;
+}
+
+.entete-messages{
+  margin-bottom: 2px;
+}
+
+.entete-gauche{
+  margin-top: 0px;
+}
+
+.btn-type-msg{
+	position: absolute;
+	top : 5px;
+	right: 0px;
+	/*width: 135px;*/
+	width: 35px;
+	background: #efa947;
+	color: #2e2d32;
+	z-index: 10;
+}
+
+.type-msg-select{
+	float: left;
+	font-weight: bold;
+	font-size: 16px;
+	margin-left: 13px;
+	color: #2e2d32;
+	display: none;
+}
+
+.ico-msg-select{
+	float : right;
+	font-size: 26px;
+	margin-right: 2px;
+	padding: 2px;
+}
+
+.msg-select{
+	background: #23313E;
+	position: absolute;
+	width: 135px;
+	top: 5px;
+	right: 0px;
+	color: #fff;
+	z-index: 10;
+	-moz-box-shadow: 5px 5px 5px #656565;
+	-webkit-box-shadow: 5px 5px 5px #656565;
+	-o-box-shadow: 5px 5px 5px #656565;
+	box-shadow: 5px 5px 5px #656565;
+	display: none;
+	padding-top: 10px;
+	padding-bottom: 6px;
+}
+
+.msg-select label{
+	margin-left: 7px;
+}
+
+.msg-select input{
+	margin-left: 15px;
+}
+
+
+#message-container{
+	height: 74px;
+	margin-top: 6px;
+	margin-left: 15px;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+.important{
+	color : #efa947;
+}
+
+.secondaire{
+	color: #dad9d9;
+}
+
+.recompense{
+	color: #3bb0d1;
+}
+
+.perte{
+	color: #e91a28;
+}
+
+.cont-generale{
+  margin-bottom: 0px;
+}
+
+/* Messages Objet */
+
+#msg p{
+  margin-bottom: 0px;
+}
+
+#alert_pnj .iziModal-content{
+  color: #121212;
+}
+
+/* Combat */
+
+#fight-content{
+	background: #000;
+	position: relative;
+}
+
+#tour {
+	margin: 0px;
+	position: absolute;
+	right: 10px;
+}
+
+@media screen and (min-width: 767px) {
+	.controles{
+		position: relative;
+		right: 0;
+		z-index: 1000;
+		float: right;
+	}
+}

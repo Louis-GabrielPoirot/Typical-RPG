@@ -1,0 +1,105 @@
+body{
+	background: #2B3E50;
+}
+
+header, 
+footer{
+	background: #1E2C38;
+	font-size: 80%;
+}
+
+header{
+	margin-bottom: 8px;
+}
+
+footer{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	padding: 5px 0;
+}
+
+p{
+	color: #fff;
+	margin: 4px 0;
+}
+
+.containerBis{
+	padding-left: 30px;
+  	padding-right: 30px;
+}
+
+.version{
+	color: #fff;
+	float: right;
+}
+
+.vie{
+	margin-top: 9px;
+	margin-bottom: 1px;
+	padding-right: 0px;
+}
+
+#j_nom {
+	margin-bottom: 0px;
+}
+
+#message{
+	height: 95px;
+	background: #2e2d32;
+	clear: left;
+	position: relative;
+	padding-right: 0px;
+}
+
+.etoile{
+	right:auto;
+	left: 7px;
+}
+
+.vue{
+	display: none;
+}
+
+#nav{
+	margin-top: 8px;
+}
+
+.separation-menu{
+	height: 8px;
+	background: #ba5816;
+	/*border-bottom: 3px solid #ba5816;*/
+}
+
+.btn-ico{
+	position: relative;
+}
+
+.ico1{
+	position: absolute;
+	top: -50px;
+	left: 6%;
+	z-index: 1000000;
+}
+
+.ico2{
+	position: absolute;
+	top: -48px;
+	right: 28%;
+	z-index: 1000000;
+}
+
+.ico3{
+	position: absolute;
+	left: 20px;
+	top: 5px;
+	z-index: 1000000;
+}
+
+.btn-titre{
+	margin-left: 40px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+

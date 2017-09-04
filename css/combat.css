@@ -1,0 +1,128 @@
+.attack-title {
+    position:absolute; 
+    color:#000; 
+    left: 90px; 
+    top:50%; 
+    transform:translate(0%, -50%);
+}
+
+.cbt-header{
+	margin-top: 7px;
+	height: 104px;
+	position: relative;
+}
+
+/*.cbt-mob{
+	position: absolute;
+	width: 100%;
+}
+
+.cbt-nom{
+	text-align: center;
+	font-size: 28px;
+}
+
+.cbt-lvl{
+	
+	font-size: 23px;
+	color: #adadad;
+	margin: 0;
+}*/
+
+.cbt-mob .col-md-6, .cbt-mob .col-xs-6, .cbt-adjectif .col-md-6, .cbt-adjectif .col-md-6{
+	height: 40px;
+	position: relative;
+}
+
+.cbt-nom{
+	position: absolute;
+	font-weight: bold;
+	font-size: 16px;
+	margin: 0;
+	right: 7px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.cbt-lvl{
+	position: absolute;
+	font-size: 16px;
+	color: #adadad;
+	margin: 0;
+	left: 7px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.cbt-adjectif{
+}
+
+.cbt-adj{
+	position: absolute;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 2px 20px;
+	border-radius: 25px;
+}
+
+.adj-gauche{
+	background: #cf6218;
+	right: 7px;
+}
+
+.adj-droite{
+	background: #52bcdc;
+	left: 7px;
+}
+
+.barre-mob{
+	width: 82%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.m-vie{
+	border-radius: 25px;
+}
+
+.img_barre_mob{
+  width: 30px;
+  position: absolute;
+  top: -10px;
+  right: 0px;
+}
+
+.cbt-content{
+	padding: 10px 0px;
+}
+
+.img_mob{
+	height: 100%;
+	width: auto;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.cbt-footer{
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+}
+
+.rage{
+	margin-bottom: 0px;
+	height: 12px;
+}
+
+.cbt-action{
+/*
+	background: linear-gradient(#e8e8e8, #cfcfcf);
+*/
+	background: #fff;
+}
+
+.cbt-btn-action{
+    margin : 7px 0;
+    cursor: pointer;
+}
